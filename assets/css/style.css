@@ -463,7 +463,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 50px 0;
 }
 
 .section-bg {
@@ -1332,6 +1332,10 @@ margin-bottom: 30px;
   align-items:center;
 }
 
+.footer-logos h3 {
+  margin: 0 !important;
+}
+
 .footer-logos img {
   width: 100px;
   padding-right: 20px;
@@ -1348,8 +1352,12 @@ margin-bottom: 30px;
 }
 
 .header-logos img {
-  width: 85px;
+  width: 70px;
   padding-right: 20px;
+}
+
+.header-logos h3 {
+  margin: 0;
 }
 
 
@@ -1362,4 +1370,76 @@ margin-bottom: 30px;
 .content-item div img {
   width: 90%;
   margin-bottom: 10px;
+}
+
+.banner-title p {
+  position: relative;
+  top: 10px;
+  right: -10px;
+  color: white;
+}
+
+.about-bg-img {
+  background-image: url("/assets/img/pageimg/about-p.jpg") !important;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+
+}
+
+.main-bg-img {
+  background-image: url("/assets/img/pageimg/main-p.jpg") !important;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+
+}
+
+.about-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.industries-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.industries-title {
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.industries-info {
+  margin-bottom: 20px;
+}
+
+.industries-more {
+  display: flex;
+  justify-content: flex-end;
+  color: tomato;
+}
+
+.service-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.service-info {
+  /* margin-bottom: 50px; */
+  display: flex;
+  /* align-items: center; */
+}
+
+.p-block {
+  margin-bottom: 50px;
 }
