@@ -149,11 +149,14 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 5px 10px 5px 10px;
+  margin: 0 5px;
   font-size: 15px;
   color: #222222;
   white-space: nowrap;
   transition: 0.3s;
+  border-radius: 5px;
+  font-weight: bold;
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -161,7 +164,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #5cb874;
+  color: #000000;
+  background:#165c04;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   color: #5cb874;
