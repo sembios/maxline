@@ -581,6 +581,7 @@ section {
   border-left: 1px solid #eee;
   border-bottom: 1px solid #eee;
   margin: -1px;
+  padding: 0 5px !important;
 }
 .why-us .content-item span {
   display: block;
@@ -1484,18 +1485,26 @@ textarea.form-control {
   justify-content: flex-start;
   margin-top: 10px;
 }
-.navbar-footer ul {
+.navbar-footer {
   display: flex;
   justify-content: space-around;
 }
-.navbar-footer ul li {
+.navbar-footer li {
   margin: 0 5px;
   list-style-type: none;
 }
-.navbar-footer ul li a {
+.navbar-footer li a {
   color: white;
 }
 
-/* .footer-left-block {
-  margin: 0 !important;
+/* @media (max-width: 766px) {
+  .navbar-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .media-m {
+    display: flex !important;
+    justify-content: center !important;
+  }
 } */
