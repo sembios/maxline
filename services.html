@@ -174,35 +174,30 @@
                 <p>+996 312 665731</p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.7093103481084!2d74.59539061575522!3d42.85787077915659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb62b37890b5b%3A0x337096326108d6b9!2zNTgg0YPQuy4g0JDRiNGF0LDQsdCw0LTRgdC60LDRjywg0JHQuNGI0LrQtdC6!5e0!3m2!1sru!2skg!4v1657277180628!5m2!1sru!2skg" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-            </div>
+              </div>
 
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Ваше имя</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя" required>
                 </div>
-                <div class="form-group col-md-6 mt-3 mt-md-0">
-                  <label for="name">Ваш Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <label for="name">Тема</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Тема" required>
               </div>
               <div class="form-group mt-3">
-                <label for="name">Сообшение</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Сообщение" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Загрузка</div>
+                <div class="loading">Загурзка</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Сообщение отправлено</div>
+                <div class="sent-message">Ваше сообщение отправлено. Спасибо!</div>
               </div>
               <div class="text-center"><button type="submit">Отправить</button></div>
             </form>
@@ -211,20 +206,74 @@
         </div>
 
       </div>
+      <div class="">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.7093103481084!2d74.59539061575522!3d42.85787077915659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb62b37890b5b%3A0x337096326108d6b9!2zNTgg0YPQuy4g0JDRiNGF0LDQsdCw0LTRgdC60LDRjywg0JHQuNGI0LrQtdC6!5e0!3m2!1sru!2skg!4v1657277180628!5m2!1sru!2skg" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen></iframe>
+            
+      </div>
     </section><!-- End Contact Section -->
+
+    <!-- ======= Our Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/partner/apc.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/cisco.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/dell.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/fujitsu.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/hp.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/huawei.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/microsoft.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/oracle.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/avanpost.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/partner/quantum.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Our Clients Section -->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <div class="footer-logos">
+      <div class="media-m">
+        <div class="left">
+          <div class="footer-logos">
+              <img src="./assets/img/logo-w.png" alt="">
+            <p>MaxLine Group</p>
+          </div>
+          <div>
+            <p class="copy-r">&copy; 2022 MaxLine Group LLC</p>
+          </div>
+        </div>
+        <div class="center">
+          
+            <ul class="navbar-footer">
+              <li><a class="nav-link1" href="#hero">Главная</a></li>
+              <li><a class="nav-link1" href="./about.html">О компании</a></li>
+              <li><a class="nav-link1" href="./industries.html">Отрасли</a></li>
+              <li><a class="nav-link1" href="./services.html">Решения и услуги</a></li>
+              <li><a class="nav-link1" href="./contact.html">Контакты</a></li>
+            </ul>
+          
+        </div>
+        <div class="right">
+          <p class="footer-left-block">info@maxline.kg</p>
+          <p>+996 312 665731</p>
+        </div>
+      </div>
+      <!-- <div class="footer-logos">
         <img src="./assets/img/logo-w.png" alt="">
         <h4>MaxLine Group</h4>
       </div>
+      <p class="copy-r">&copy; 2022 MaxLine Group LLC</p>
       
       <div class="copyright">
-        &copy; 2022 MaxLine Group LLC
+        &copy; 2022 MaxLine Group LLC -->
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -237,9 +286,6 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/jquery-3.2.1.slim.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/popper.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
