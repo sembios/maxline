@@ -1284,7 +1284,7 @@ section {
 
 .why-us-info {
 margin-bottom: 30px;
-min-height: 150px;
+min-height: 115px;
 }
 
 .why-us-link {
@@ -1441,6 +1441,7 @@ min-height: 150px;
   display: flex;
   justify-content: flex-end;
   color: #fc8e40;
+  cursor: pointer;
 }
 
 .service-img {
