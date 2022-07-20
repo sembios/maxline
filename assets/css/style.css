@@ -748,7 +748,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #2d2e91;
+  /* background: #2d2e91; */
   padding: 80px 0;
 }
 .cta h3 {
@@ -1346,13 +1346,13 @@ min-height: 115px;
 
 .footer-logos p {
   margin: 0 !important;
-  font-size: 22px;
+  font-size: 16px;
 
 }
 
 .footer-logos img {
-  width: 88px;
-  padding-right: 20px;
+  width: 75px;
+  padding-right: 7px;
 }
 
 .logo-m {
@@ -1398,7 +1398,7 @@ min-height: 115px;
 }
 
 .about-bg-img {
-  background-image: url("/assets/img/pageimg/about-p.jpg") !important;
+  background-image: url("../../assets/img/pageimg/about-p.jpg") !important;
   height: 200px;
   background-position: center;
   background-repeat: no-repeat; 
@@ -1407,7 +1407,7 @@ min-height: 115px;
 }
 
 .main-bg-img {
-  background-image: url("/assets/img/pageimg/main-p.jpg") !important;
+  background-image: url("../../assets/img/pageimg/main-p.jpg") !important;
   height: 200px;
   background-position: center;
   background-repeat: no-repeat; 
@@ -1589,7 +1589,7 @@ textarea.form-control {
   }
   .footer-logos {
     display: flex;
-    flex-direction: column-reverse
+    /* flex-direction: column-reverse */
   }
 
 }
