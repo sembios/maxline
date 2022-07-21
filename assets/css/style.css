@@ -1616,6 +1616,11 @@ textarea.form-control {
   .copy-r {
     padding-top: 10px;
   }
+
+  .banner-title p {
+    font-size: 20px;
+    width: 300px;
+  }
 }
 
 @media (max-width: 1200px) {
