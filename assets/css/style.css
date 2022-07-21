@@ -1580,6 +1580,42 @@ textarea.form-control {
   ul.navbar-footer  {
     padding: 0;
   }
+
+  .w-100 {
+    height: 180px;
+  }
+
+  .why-us-info {
+    margin: 0 10px;
+  }
+
+  .main-bg-img {
+    height: 250px;
+  }
+
+  .about-bg-img {
+    height: 250px;
+  }
+
+  .info {
+    padding-bottom: 0 !important;
+  }
+
+  .img-fluid {
+    max-width: 70%;
+  }
+
+  .footer-logos {
+    justify-content: center;
+  }
+
+  .footer-logos p {
+    padding-left: 10px;
+  }
+
+  .copy-r {
+    padding-top: 10px;
+  }
 }
 
 @media (max-width: 1200px) {
