@@ -14,7 +14,7 @@ a {
 }
 
 a:hover {
-  color: #80c792;
+  color: #008029;
   text-decoration: none;
 }
 
@@ -1264,12 +1264,19 @@ section {
   padding-top: 20px;
   display: flex;
   justify-content: center;
+  text-indent: 20px;
 }
 
-/* .icon-box p {
-  vertical-align: middle;
-  height: 40px !important;
-} */
+.title-pos {
+  text-indent: 20px;
+}
+.industries-info .service-info {
+  text-indent: 20px;
+}
+
+.service-info {
+  text-indent: 20px;
+}
 
 .title-how {
   text-align: center;
@@ -1292,6 +1299,7 @@ section {
 .why-us-info {
 margin-bottom: 30px;
 min-height: 115px;
+text-indent: 20px;
 }
 
 .why-us-link {
@@ -1325,6 +1333,7 @@ min-height: 115px;
 .about-title-info {
   font-size: 15px;
   margin-bottom: 5px !important;
+  text-indent: 20px;
 }
 
 .about-title {
@@ -1544,7 +1553,7 @@ textarea.form-control {
   padding: 0 !important;
 }
 
-@media (max-width: 766px) {
+@media (max-width: 800px) {
   .navbar-footer {
     display: flex;
     flex-direction: column-reverse
@@ -1561,8 +1570,9 @@ textarea.form-control {
     align-items: center;
   }
   .center {
-    display: flex;
+    display: flex !important;
     width: 100%;
+    flex-direction: column-reverse;
   }
   .right {
     width: 100%;
@@ -1591,6 +1601,16 @@ textarea.form-control {
 
   .main-bg-img {
     height: 250px;
+    object-fit: contain;
+    background-image: url("../../assets/img/pageimg/main-p-mob.jpg") !important;
+  }
+
+  .mob-title h3 {
+    margin-top: -35px;
+  }
+
+  .mob-title p {
+    width: 300px;
   }
 
   .about-bg-img {
@@ -1621,17 +1641,60 @@ textarea.form-control {
     font-size: 20px;
     width: 300px;
   }
+
+  .header-logos img {
+    width: 60px;
+  }
+
+  #header {
+    height: 60px !important;
+    box-shadow: rgba(0, 0, 0, 1.0) 0px 0px 2px !important;
+  }
+
+  .header-logos h3 {
+    font-size: 16px;
+  }
+
+  .footer-logos img {
+    width: 50px;
+  }
+
+  .fixed-top {
+    /* padding-top: 6px !important; */
+  }
+
+  .mob-none {
+    display: none;
+  }
+
+  .why-us-title {
+    min-height: 10px;
+  }
+
+  .section-title h2 {
+    font-size: 24px;
+  }
+
+  .why-us-link a {
+    margin-bottom: 15px;
+  }
+
+  .description-how {
+    text-align: center;
+    width: 100%;
+  }
 }
 
 @media (max-width: 1200px) {
   .navbar-footer {
     display: flex;
-    flex-direction: column-reverse
+    flex-direction: column;
   }
   .footer-logos {
     display: flex;
     /* flex-direction: column-reverse */
   }
+
 
 }
 
