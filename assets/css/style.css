@@ -1264,13 +1264,13 @@ section {
   padding-top: 20px;
   display: flex;
   justify-content: center;
-  text-indent: 20px;
+  /* text-indent: 20px; */
 }
 
 .title-pos {
   text-indent: 20px;
 }
-.industries-info .service-info {
+.industries-info {
   text-indent: 20px;
 }
 
@@ -1531,7 +1531,10 @@ textarea.form-control {
 }
 .left {
   width: 20%;
-  
+}
+
+.left a {
+  color: #ffffff;
 }
 .center {
   width: 60%;
@@ -1682,6 +1685,14 @@ textarea.form-control {
   .description-how {
     text-align: center;
     width: 100%;
+  }
+
+  .title-pos {
+    align-items: inherit;
+  }
+
+  .about-mob {
+    padding-bottom: 0 !important;
   }
 }
 
